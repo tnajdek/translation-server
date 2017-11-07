@@ -47,7 +47,11 @@ When you’re done, ensure your changes are applied to `modules/zotero` and `mod
 
 1. `git clone --recursive https://github.com/zotero/translation-server`
 
-1. `cd translation-server`
+1. `cd translation-server/modules/zotero`
+
+1. `npm i && npm st`
+
+1. `cd ../..`
 
 1. `./fetch_sdk`
 
